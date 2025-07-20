@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/external/glfw/docs
+# Install script for directory: C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/external/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/external/glfw/docs/install_local_manifest.txt"
+  file(WRITE "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/external/glfw/docs/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

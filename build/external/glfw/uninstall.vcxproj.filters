@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimualtionOpenGL\build\CMakeFiles\a0dec1b778c32a1f97adccf71cf31931\uninstall.rule">
+    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\CMakeFiles\a0dec1b778c32a1f97adccf71cf31931\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimualtionOpenGL\external\glfw\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\external\glfw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimualtionOpenGL\build\external\glfw\CMakeFiles\uninstall" />
+    <None Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\external\glfw\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">

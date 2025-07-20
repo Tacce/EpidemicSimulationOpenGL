@@ -7,15 +7,27 @@
 #include <ctime>
 #include <chrono>
 
-const int GRID_SIZE_X = 32;
-const int GRID_SIZE_Y = 18;
+const int GRID_SIZE_X = 64;
+const int GRID_SIZE_Y = 36;
+
 const float CELL_WIDTH  = 2.0f / GRID_SIZE_X;
 const float CELL_HEIGHT = 2.0f / GRID_SIZE_Y;
+
+const int VERTICES_COUNT = GRID_SIZE_X * GRID_SIZE_Y * 6;
+const int NUM_NODES = GRID_SIZE_X * GRID_SIZE_Y;
+
+const int STEP_TIMER = 50; // Milliseconds
+
+const int dx[] = {-1, 1, 0, 0};
+const int dy[] = {0, 0, -1, 1};
 
 struct Vertex {
     float x, y;
     float r, g, b;
 };
+
+
+// Initialize GLFW and create a window
 
 GLFWwindow* initWindow() {
     glfwInit();
@@ -28,7 +40,7 @@ GLFWwindow* initWindow() {
 
     GLFWwindow* window = glfwCreateWindow(
         mode->width, mode->height,
-        "Griglia Random",
+        "SIR Epidemic Simulation",
         monitor,
         nullptr
     );
@@ -44,6 +56,8 @@ GLFWwindow* initWindow() {
     }
     return window;
 }
+
+// SHADER PROGRAMS
 
 const char* vertexShaderSource = R"(
 #version 330 core
@@ -84,51 +98,92 @@ unsigned int createShaderProgram() {
     return shaderProgram;
 }
 
-void initVertices(std::vector<Vertex>& vertices) {
-    vertices.reserve(GRID_SIZE_X * GRID_SIZE_Y * 6);
-    for (int i = 0; i < GRID_SIZE_X; ++i) {
-        for (int j = 0; j < GRID_SIZE_Y; ++j) {
+void initVertices(Vertex vertices[]) {
+    int index = 0;
+    for (int j = 0; j < GRID_SIZE_Y; ++j) {
+        for (int i = 0; i < GRID_SIZE_X; ++i){
             float x = -1.0f + i * CELL_WIDTH;
             float y = 1.0f - (j + 1) * CELL_HEIGHT;
 
-            float r = (i + j) % 2 == 0 ? 1.0f : 0.0f; // Alterna i colori tra rosso e nero
-
+            //float r = (i + j) % 2 == 0 ? 1.0f : 0.0f; // Alterna i colori tra rosso e nero
+            float r = i+j==0 ? 1.0f : 0.0f; // Solo il primo nodo è rosso
+            
             // 2 triangoli per formare un quadrato
-            // sostituire r con 0.0f se non si vuole scacchiera
+            vertices[index++] = { x, y, r, 0, 0 };
+            vertices[index++] = { x + CELL_WIDTH, y, r, 0, 0 };
+            vertices[index++] = { x + CELL_WIDTH, y + CELL_HEIGHT, r, 0, 0 };
 
-            vertices.push_back({ x, y, r, 0, 0 });
-            vertices.push_back({ x + CELL_WIDTH, y, r/2, 0, 0 });
-            vertices.push_back({ x + CELL_WIDTH, y + CELL_HEIGHT, r/4, 0, 0 });
-
-            vertices.push_back({ x, y, r, 0, 0 });
-            vertices.push_back({ x + CELL_WIDTH, y + CELL_HEIGHT, r/2, 0, 0 });
-            vertices.push_back({ x, y + CELL_HEIGHT, r/4, 0, 0 });
+            vertices[index++] = { x, y, r, 0, 0 };
+            vertices[index++] = { x + CELL_WIDTH, y + CELL_HEIGHT, r, 0, 0 };
+            vertices[index++] = { x, y + CELL_HEIGHT, r, 0, 0 };
         }
     }
 }
 
-void updateColors(std::vector<Vertex>& vertices) {
-    for (int i = 0; i < GRID_SIZE_X; ++i) {
-        for (int j = 0; j < GRID_SIZE_Y; ++j) {
-            
-            int base = (i * GRID_SIZE_Y + j) * 6;
-            
-            float r;
-            if (vertices[base].r)
-            r = 0.0f;
-            else    
-            r = 1.0f;
+void initLevelsAndImmune(int Levels[], int Immune[]) {
+    for (int i = 0; i < NUM_NODES; ++i) {
+        Levels[i] = -1; // Inizializza tutti i nodi come non infetti
+        Immune[i] = 0; // Inizializza tutti i nodi come non immuni
+    }
+    Levels[0] = 0; // Il primo nodo è infetto all'inizio
+}
 
-            //float r = rand() % 2 ? 1.0f : 0.0f;
-            //float g = 0.0f;
-            //float b = 0.0f;
+void updateColors(int node_index, float r, float g, float b, Vertex vertices[]) {
+    int base = node_index * 6;    
+    for (int k = 0; k < 6; ++k) {
+        vertices[base + k].r = r;
+        vertices[base + k].g = g;
+        vertices[base + k].b = b;
+    }
+}
 
-            for (int k = 0; k < 6; ++k) {
-                vertices[base + k].r = r/((k%3)+1);
-                //vertices[base + k].g = g;
-                //vertices[base + k].b = b;
+void simulate_step(double p, double q, int& step, int& active_infections, int Levels[], int Immune[], Vertex vertices[]) {
+    for (int i = 0; i < NUM_NODES; i++) {
+        if (Levels[i] == step) {
+            int row = i / GRID_SIZE_X;
+            int col = i % GRID_SIZE_X;            
+            // Infezione dei vicini
+            for (int j = 0; j < 4; j++) {
+                int new_row = row + dx[j];
+                int new_col = col + dy[j];
+                // Controlla se il vicino è dentro i confini della griglia
+                if (new_row >= 0 && new_row < GRID_SIZE_Y && 
+                    new_col >= 0 && new_col < GRID_SIZE_X) {
+
+                    int neighbor = new_row * GRID_SIZE_X + new_col;
+                    
+                    if (Levels[neighbor] == -1 && !Immune[neighbor] && ((double)rand() / RAND_MAX) < p) {
+                        Levels[neighbor] = step + 1;
+                        active_infections++;
+                        updateColors(neighbor, 1.0f, 0.0f, 0.0f, vertices); // Aggiorna colore a rosso
+                    }
+                }
+            }
+            // Simula la guarigione
+            if (((double)rand() / RAND_MAX) < q) {
+                Immune[i] = 20; // Nodo recuperato
+                active_infections--;
+                updateColors(i, 0.0f, 0.0f, 1.0f, vertices); 
+            } else {
+                Levels[i] = step + 1; // Nodo può infettare anche al prossimo step
             }
         }
+        /*if (Immune[i]){
+            updateColors(i, 0.0f, 0.0f, float(Immune[i]/20) , vertices); // Aggiorna colore a blu
+            Immune[i]--; // Decrementa il contatore di immunità
+        }*/
+    }
+    step++;
+    // Stampa lo stato della simulazione
+    std::cout << "Step " << step << ": " << active_infections << " active infections\n";
+    if (active_infections > 0) {
+        std::cout << "Infected nodes: ";
+        for (int i = 0; i < NUM_NODES; i++) {
+            if (Levels[i] == step) {
+                std::cout << i << " ";
+            }
+        }
+        std::cout << "\n";
     }
 }
 
@@ -141,12 +196,22 @@ int main() {
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
 
-    std::vector<Vertex> vertices;
+    Vertex vertices[VERTICES_COUNT];
     initVertices(vertices);
+
+    int Levels[NUM_NODES];
+    int Immune[NUM_NODES];
+    initLevelsAndImmune(Levels, Immune);
+
+    int active_infections = 1; // Inizio con un'infezione
+    int step = 0;
+
+    float p = 0.5; // Probabilità di infezione
+    float q = 0.4; // Probabilità di guarigione
 
     glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(Vertex) * vertices.size(), vertices.data(), GL_DYNAMIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(Vertex) * VERTICES_COUNT, vertices, GL_DYNAMIC_DRAW);
 
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)0);
     glEnableVertexAttribArray(0);
@@ -158,10 +223,10 @@ int main() {
 
     while (!glfwWindowShouldClose(window)) {
         auto now = std::chrono::steady_clock::now();
-        if (std::chrono::duration_cast<std::chrono::milliseconds>(now - lastUpdate).count() > 500) {
-            updateColors(vertices);
+        if (active_infections > 0 && std::chrono::duration_cast<std::chrono::milliseconds>(now - lastUpdate).count() > STEP_TIMER) {
+            simulate_step(p, q, step, active_infections, Levels, Immune, vertices);
             glBindBuffer(GL_ARRAY_BUFFER, VBO);
-            glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(Vertex) * vertices.size(), vertices.data());
+            glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(Vertex) * VERTICES_COUNT, vertices);
             lastUpdate = now;
         }
 
@@ -170,7 +235,7 @@ int main() {
 
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, vertices.size());
+        glDrawArrays(GL_TRIANGLES, 0, VERTICES_COUNT);
 
         glfwSwapBuffers(window);
         glfwPollEvents();

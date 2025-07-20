@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/external/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/external/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/external/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/external/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/external/glfw/install_manifest.txt" files)
+file(READ "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/external/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

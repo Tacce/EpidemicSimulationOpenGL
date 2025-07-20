@@ -112,7 +112,7 @@ events:
       Versione di MSBuild 17.11.9+a69bbaaf5 per .NET Framework
       Compilazione avviata 18/07/2025 18:45:09.
       
-      Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" sul nodo 1 (destinazioni predefinite).
+      Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" sul nodo 1 (destinazioni predefinite).
       PrepareForBuild:
         Creazione directory "Debug\\".
         L'output strutturato ├¿ abilitato. La formattazione della diagnostica del compilatore rifletter├á la gerarchia degli errori. Per altri dettagli, vedere https://aka.ms/cpp/structured-output.
@@ -125,7 +125,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -133,7 +133,7 @@ events:
       FinalizeBuildStatus:
         Eliminazione del file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" in corso.
         Aggiornamento timestamp di "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" (destinazioni predefinite) completata.
+      Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" (destinazioni predefinite) completata.
       
       Compilazione completata.
           Avvisi: 0
@@ -147,7 +147,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/4.1.0-rc2/CompilerIdC/CompilerIdC.exe
+        C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/4.1.0-rc2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -214,7 +214,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -351,7 +351,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -489,9 +489,9 @@ events:
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/lld-link.com"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/lld-link.exe"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/lld-link"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/lld-link.com"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/lld-link.exe"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/lld-link"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/lld-link.com"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/lld-link.exe"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/lld-link"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
@@ -638,7 +638,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -773,7 +773,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -911,9 +911,9 @@ events:
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/mt.com"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/mt.exe"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/mt"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/mt.com"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/mt.exe"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/mt"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/mt.com"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/mt.exe"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/mt"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.com"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.exe"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt"
@@ -1060,7 +1060,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -1236,7 +1236,7 @@ events:
       Versione di MSBuild 17.11.9+a69bbaaf5 per .NET Framework
       Compilazione avviata 18/07/2025 18:45:10.
       
-      Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
+      Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
       PrepareForBuild:
         Creazione directory "Debug\\".
         L'output strutturato ├¿ abilitato. La formattazione della diagnostica del compilatore rifletter├á la gerarchia degli errori. Per altri dettagli, vedere https://aka.ms/cpp/structured-output.
@@ -1249,7 +1249,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -1257,7 +1257,7 @@ events:
       FinalizeBuildStatus:
         Eliminazione del file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" in corso.
         Aggiornamento timestamp di "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
+      Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\4.1.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
       
       Compilazione completata.
           Avvisi: 0
@@ -1271,7 +1271,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/4.1.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/4.1.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -1338,7 +1338,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -1476,9 +1476,9 @@ events:
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/lld-link.com"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/lld-link.exe"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/lld-link"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/lld-link.com"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/lld-link.exe"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/lld-link"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/lld-link.com"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/lld-link.exe"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/lld-link"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
@@ -1627,7 +1627,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -1774,9 +1774,9 @@ events:
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/rc.com"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/rc.exe"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/rc"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/rc.com"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/rc.exe"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/rc"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/rc.com"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/rc.exe"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/rc"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.com"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.exe"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc"
@@ -1911,8 +1911,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k"
-      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k"
+      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k"
+      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1921,17 +1921,17 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k'
+        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0a904.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versione di MSBuild 17.11.9+a69bbaaf5 per .NET Framework
         Compilazione avviata 18/07/2025 18:45:12.
         
-        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\cmTC_0a904.vcxproj" sul nodo 1 (destinazioni predefinite).
+        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\cmTC_0a904.vcxproj" sul nodo 1 (destinazioni predefinite).
         PrepareForBuild:
           Creazione directory "cmTC_0a904.dir\\Debug\\".
           L'output strutturato ├¿ abilitato. La formattazione della diagnostica del compilatore rifletter├á la gerarchia degli errori. Per altri dettagli, vedere https://aka.ms/cpp/structured-output.
-          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\Debug\\".
+          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\Debug\\".
           Creazione directory "cmTC_0a904.dir\\Debug\\cmTC_0a904.tlog\\".
         InitializeBuildStatus:
           Creazione di "cmTC_0a904.dir\\Debug\\cmTC_0a904.tlog\\unsuccessfulbuild". ├ê stato specificato "AlwaysCreate".
@@ -1943,12 +1943,12 @@ events:
           cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0a904.dir\\Debug\\\\" /Fd"cmTC_0a904.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\Debug\\cmTC_0a904.exe" /INCREMENTAL /ILK:"cmTC_0a904.dir\\Debug\\cmTC_0a904.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k/Debug/cmTC_0a904.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k/Debug/cmTC_0a904.lib" /MACHINE:X64  /machine:x64 cmTC_0a904.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_0a904.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\Debug\\cmTC_0a904.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\Debug\\cmTC_0a904.exe" /INCREMENTAL /ILK:"cmTC_0a904.dir\\Debug\\cmTC_0a904.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k/Debug/cmTC_0a904.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gsm22k/Debug/cmTC_0a904.lib" /MACHINE:X64  /machine:x64 cmTC_0a904.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0a904.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\Debug\\cmTC_0a904.exe
         FinalizeBuildStatus:
           Eliminazione del file "cmTC_0a904.dir\\Debug\\cmTC_0a904.tlog\\unsuccessfulbuild" in corso.
           Aggiornamento timestamp di "cmTC_0a904.dir\\Debug\\cmTC_0a904.tlog\\cmTC_0a904.lastbuildstate".
-        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\cmTC_0a904.vcxproj" (destinazioni predefinite) completata.
+        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsm22k\\cmTC_0a904.vcxproj" (destinazioni predefinite) completata.
         
         Compilazione completata.
             Avvisi: 0
@@ -1994,8 +1994,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q"
-      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q"
+      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q"
+      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2005,17 +2005,17 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q'
+        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_99fb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versione di MSBuild 17.11.9+a69bbaaf5 per .NET Framework
         Compilazione avviata 18/07/2025 18:45:13.
         
-        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\cmTC_99fb0.vcxproj" sul nodo 1 (destinazioni predefinite).
+        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\cmTC_99fb0.vcxproj" sul nodo 1 (destinazioni predefinite).
         PrepareForBuild:
           Creazione directory "cmTC_99fb0.dir\\Debug\\".
           L'output strutturato ├¿ abilitato. La formattazione della diagnostica del compilatore rifletter├á la gerarchia degli errori. Per altri dettagli, vedere https://aka.ms/cpp/structured-output.
-          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\Debug\\".
+          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\Debug\\".
           Creazione directory "cmTC_99fb0.dir\\Debug\\cmTC_99fb0.tlog\\".
         InitializeBuildStatus:
           Creazione di "cmTC_99fb0.dir\\Debug\\cmTC_99fb0.tlog\\unsuccessfulbuild". ├ê stato specificato "AlwaysCreate".
@@ -2027,12 +2027,12 @@ events:
           cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_99fb0.dir\\Debug\\\\" /Fd"cmTC_99fb0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\Debug\\cmTC_99fb0.exe" /INCREMENTAL /ILK:"cmTC_99fb0.dir\\Debug\\cmTC_99fb0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q/Debug/cmTC_99fb0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q/Debug/cmTC_99fb0.lib" /MACHINE:X64  /machine:x64 cmTC_99fb0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_99fb0.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\Debug\\cmTC_99fb0.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\Debug\\cmTC_99fb0.exe" /INCREMENTAL /ILK:"cmTC_99fb0.dir\\Debug\\cmTC_99fb0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q/Debug/cmTC_99fb0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-szku8q/Debug/cmTC_99fb0.lib" /MACHINE:X64  /machine:x64 cmTC_99fb0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_99fb0.vcxproj -> C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\Debug\\cmTC_99fb0.exe
         FinalizeBuildStatus:
           Eliminazione del file "cmTC_99fb0.dir\\Debug\\cmTC_99fb0.tlog\\unsuccessfulbuild" in corso.
           Aggiornamento timestamp di "cmTC_99fb0.dir\\Debug\\cmTC_99fb0.tlog\\cmTC_99fb0.lastbuildstate".
-        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\cmTC_99fb0.vcxproj" (destinazioni predefinite) completata.
+        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-szku8q\\cmTC_99fb0.vcxproj" (destinazioni predefinite) completata.
         
         Compilazione completata.
             Avvisi: 0
@@ -2080,46 +2080,46 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vghq9h"
-      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vghq9h"
+      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vghq9h"
+      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vghq9h"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vghq9h'
+        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vghq9h'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_692aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versione di MSBuild 17.11.9+a69bbaaf5 per .NET Framework
         Compilazione avviata 18/07/2025 18:45:14.
         
-        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj" sul nodo 1 (destinazioni predefinite).
+        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj" sul nodo 1 (destinazioni predefinite).
         PrepareForBuild:
           Creazione directory "cmTC_692aa.dir\\Debug\\".
           L'output strutturato ├¿ abilitato. La formattazione della diagnostica del compilatore rifletter├á la gerarchia degli errori. Per altri dettagli, vedere https://aka.ms/cpp/structured-output.
-          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\Debug\\".
+          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\Debug\\".
           Creazione directory "cmTC_692aa.dir\\Debug\\cmTC_692aa.tlog\\".
         InitializeBuildStatus:
           Creazione di "cmTC_692aa.dir\\Debug\\cmTC_692aa.tlog\\unsuccessfulbuild". ├ê stato specificato "AlwaysCreate".
           Aggiornamento timestamp di "cmTC_692aa.dir\\Debug\\cmTC_692aa.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_692aa.dir\\Debug\\\\" /Fd"cmTC_692aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_692aa.dir\\Debug\\\\" /Fd"cmTC_692aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler versione 19.41.34120 per x64
           Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_692aa.dir\\Debug\\\\" /Fd"cmTC_692aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_692aa.dir\\Debug\\\\" /Fd"cmTC_692aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c"
           src.c
-        C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c(1,10): error C1083: Non ├¿ possibile aprire il file inclusione: 'pthread.h': No such file or directory [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj]
-        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+        C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c(1,10): error C1083: Non ├¿ possibile aprire il file inclusione: 'pthread.h': No such file or directory [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj]
+        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj" (destinazioni predefinite) NON COMPLETATA.
         
         Compilazione NON RIUSCITA.
         
-        "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj" (destinazione predefinita) (1) ->
+        "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj" (destinazione predefinita) (1) ->
         (destinazione: ClCompile) -> 
-          C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c(1,10): error C1083: Non ├¿ possibile aprire il file inclusione: 'pthread.h': No such file or directory [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj]
+          C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\src.c(1,10): error C1083: Non ├¿ possibile aprire il file inclusione: 'pthread.h': No such file or directory [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghq9h\\cmTC_692aa.vcxproj]
         
             Avvisi: 0
             Errori: 1
@@ -2137,48 +2137,48 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig"
-      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig"
+      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig"
+      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig'
+        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0d1a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versione di MSBuild 17.11.9+a69bbaaf5 per .NET Framework
         Compilazione avviata 18/07/2025 18:45:14.
         
-        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj" sul nodo 1 (destinazioni predefinite).
+        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj" sul nodo 1 (destinazioni predefinite).
         PrepareForBuild:
           Creazione directory "cmTC_c0d1a.dir\\Debug\\".
           L'output strutturato ├¿ abilitato. La formattazione della diagnostica del compilatore rifletter├á la gerarchia degli errori. Per altri dettagli, vedere https://aka.ms/cpp/structured-output.
-          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\Debug\\".
+          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\Debug\\".
           Creazione directory "cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.tlog\\".
         InitializeBuildStatus:
           Creazione di "cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.tlog\\unsuccessfulbuild". ├ê stato specificato "AlwaysCreate".
           Aggiornamento timestamp di "cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c0d1a.dir\\Debug\\\\" /Fd"cmTC_c0d1a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c0d1a.dir\\Debug\\\\" /Fd"cmTC_c0d1a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler versione 19.41.34120 per x64
           Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c0d1a.dir\\Debug\\\\" /Fd"cmTC_c0d1a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c0d1a.dir\\Debug\\\\" /Fd"cmTC_c0d1a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\Debug\\cmTC_c0d1a.exe" /INCREMENTAL /ILK:"cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig/Debug/cmTC_c0d1a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig/Debug/cmTC_c0d1a.lib" /MACHINE:X64  /machine:x64 cmTC_c0d1a.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: impossibile aprire il file 'pthreads.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj]
-        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\Debug\\cmTC_c0d1a.exe" /INCREMENTAL /ILK:"cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig/Debug/cmTC_c0d1a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-vuyeig/Debug/cmTC_c0d1a.lib" /MACHINE:X64  /machine:x64 cmTC_c0d1a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossibile aprire il file 'pthreads.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj]
+        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj" (destinazioni predefinite) NON COMPLETATA.
         
         Compilazione NON RIUSCITA.
         
-        "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj" (destinazione predefinita) (1) ->
+        "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj" (destinazione predefinita) (1) ->
         (destinazione: Link) -> 
-          LINK : fatal error LNK1104: impossibile aprire il file 'pthreads.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj]
+          LINK : fatal error LNK1104: impossibile aprire il file 'pthreads.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vuyeig\\cmTC_c0d1a.vcxproj]
         
             Avvisi: 0
             Errori: 1
@@ -2196,48 +2196,48 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo"
-      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo"
+      source: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo"
+      binary: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo'
+        Change Dir: 'C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_54f06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versione di MSBuild 17.11.9+a69bbaaf5 per .NET Framework
         Compilazione avviata 18/07/2025 18:45:15.
         
-        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj" sul nodo 1 (destinazioni predefinite).
+        Progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj" sul nodo 1 (destinazioni predefinite).
         PrepareForBuild:
           Creazione directory "cmTC_54f06.dir\\Debug\\".
           L'output strutturato ├¿ abilitato. La formattazione della diagnostica del compilatore rifletter├á la gerarchia degli errori. Per altri dettagli, vedere https://aka.ms/cpp/structured-output.
-          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\Debug\\".
+          Creazione directory "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\Debug\\".
           Creazione directory "cmTC_54f06.dir\\Debug\\cmTC_54f06.tlog\\".
         InitializeBuildStatus:
           Creazione di "cmTC_54f06.dir\\Debug\\cmTC_54f06.tlog\\unsuccessfulbuild". ├ê stato specificato "AlwaysCreate".
           Aggiornamento timestamp di "cmTC_54f06.dir\\Debug\\cmTC_54f06.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_54f06.dir\\Debug\\\\" /Fd"cmTC_54f06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_54f06.dir\\Debug\\\\" /Fd"cmTC_54f06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler versione 19.41.34120 per x64
           Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_54f06.dir\\Debug\\\\" /Fd"cmTC_54f06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_54f06.dir\\Debug\\\\" /Fd"cmTC_54f06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\Debug\\cmTC_54f06.exe" /INCREMENTAL /ILK:"cmTC_54f06.dir\\Debug\\cmTC_54f06.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo/Debug/cmTC_54f06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimualtionOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo/Debug/cmTC_54f06.lib" /MACHINE:X64  /machine:x64 cmTC_54f06.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: impossibile aprire il file 'pthread.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj]
-        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\Debug\\cmTC_54f06.exe" /INCREMENTAL /ILK:"cmTC_54f06.dir\\Debug\\cmTC_54f06.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo/Debug/cmTC_54f06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit├á_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6r0fzo/Debug/cmTC_54f06.lib" /MACHINE:X64  /machine:x64 cmTC_54f06.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossibile aprire il file 'pthread.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj]
+        Compilazione progetto "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj" (destinazioni predefinite) NON COMPLETATA.
         
         Compilazione NON RIUSCITA.
         
-        "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj" (destinazione predefinita) (1) ->
+        "C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj" (destinazione predefinita) (1) ->
         (destinazione: Link) -> 
-          LINK : fatal error LNK1104: impossibile aprire il file 'pthread.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimualtionOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj]
+          LINK : fatal error LNK1104: impossibile aprire il file 'pthread.lib' [C:\\Users\\Francesco Taccetti\\Desktop\\UNIBO\\corsi\\Primo anno\\Sistemi Digitali\\attivit├á_progettuale\\EpidemicSimulationOpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6r0fzo\\cmTC_54f06.vcxproj]
         
             Avvisi: 0
             Errori: 1
@@ -2307,7 +2307,7 @@ events:
       - "C:/Users/Francesco Taccetti/scoop/shims/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/JetBrains/IntelliJ IDEA 2023.1.3/bin/"
       - "C:/Users/Francesco Taccetti/AppData/Roaming/npm/"
@@ -2459,9 +2459,9 @@ events:
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/doxygen.com"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/doxygen.exe"
       - "C:/Program Files/JetBrains/PyCharm 2022.3.2/bin/doxygen"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/doxygen.com"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/doxygen.exe"
-      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimualtionOpenGL/build/doxygen"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/doxygen.com"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/doxygen.exe"
+      - "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/build/doxygen"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/doxygen.com"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/doxygen.exe"
       - "C:/Users/Francesco Taccetti/AppData/Local/Programs/MiKTeX/miktex/bin/x64/doxygen"
