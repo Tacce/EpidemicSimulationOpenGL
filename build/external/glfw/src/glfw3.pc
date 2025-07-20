@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/SIR_sequential
+prefix=C:/Program Files (x86)/GL_SIR_sequential
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/SIR_sequential/include
-libdir=C:/Program Files (x86)/SIR_sequential/lib
+includedir=C:/Program Files (x86)/GL_SIR_sequential/include
+libdir=C:/Program Files (x86)/GL_SIR_sequential/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

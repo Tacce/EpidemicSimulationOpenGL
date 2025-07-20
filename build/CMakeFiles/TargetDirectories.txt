@@ -1,5 +1,5 @@
 C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/glad.dir
-C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/SIR_sequential.dir
+C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/GL_SIR_sequential.dir
 C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/INSTALL.dir
 C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/ZERO_CHECK.dir

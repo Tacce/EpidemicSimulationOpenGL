@@ -1,6 +1,6 @@
-^C:\USERS\FRANCESCO TACCETTI\DESKTOP\UNIBO\CORSI\PRIMO ANNO\SISTEMI DIGITALI\ATTIVITÀ_PROGETTUALE\EpidemicSimulationOPENGL\BUILD\CMAKEFILES\8773C744B10BE5A8D0E83079DA0DF94C\GENERATE.STAMP.RULE
+^C:\USERS\FRANCESCO TACCETTI\DESKTOP\UNIBO\CORSI\PRIMO ANNO\SISTEMI DIGITALI\ATTIVITÀ_PROGETTUALE\EPIDEMICSIMULATIONOPENGL\BUILD\CMAKEFILES\70ACCAB91B5FAA666116FF034C69B3B4\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL" "-BC:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/SIR_sequential.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL" "-BC:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/GL_SIR_sequential.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

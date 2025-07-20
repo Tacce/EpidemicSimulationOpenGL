@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{005A89C2-90EF-3990-84AD-56EDB538A370}</ProjectGuid>
+    <ProjectGuid>{C94BC0F6-A327-3233-8688-830ADF378247}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\CMakeFiles\a0dec1b778c32a1f97adccf71cf31931\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\CMakeFiles\b4277ff45ea473c68fd895280f719ace\INSTALL_force.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -191,13 +191,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\ZERO_CHECK.vcxproj">
-      <Project>{99057594-FD12-3742-807A-0725060F46FC}</Project>
+      <Project>{C7B060ED-BF34-3DA9-B1D2-2E0D7AB058E0}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\external\glfw\ALL_BUILD.vcxproj">
-      <Project>{1949F4DA-77B2-3D05-917D-23545609F75E}</Project>
+      <Project>{EE2A13DE-5E2F-3C85-85F1-3CD440A0D372}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

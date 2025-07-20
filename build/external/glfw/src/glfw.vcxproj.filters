@@ -105,10 +105,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{CEAEAF13-7729-34EA-A72B-4300768217FD}</UniqueIdentifier>
+      <UniqueIdentifier>{BC73978D-3350-3C90-8CBE-CA886E490773}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{0A02A48C-3504-3A85-8D37-866B4FB854FC}</UniqueIdentifier>
+      <UniqueIdentifier>{1C8C4A0D-642F-3925-B016-600E6C964DC4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

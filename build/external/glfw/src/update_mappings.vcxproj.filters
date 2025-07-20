@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\CMakeFiles\fa8e422079261c59b062801da2f1909a\update_mappings.rule">
+    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\CMakeFiles\3d6bd1331028de266ca77fccfb633f84\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\external\glfw\src\CMakeLists.txt" />
@@ -15,10 +15,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4E816117-79D8-3C2F-8A87-00A0C36D6572}</UniqueIdentifier>
+      <UniqueIdentifier>{8355766D-0BBE-37C6-843C-35279BCC553B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{CEAEAF13-7729-34EA-A72B-4300768217FD}</UniqueIdentifier>
+      <UniqueIdentifier>{BC73978D-3350-3C90-8CBE-CA886E490773}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\CMakeFiles\8773c744b10be5a8d0e83079da0df94c\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\build\CMakeFiles\70accab91b5faa666116ff034c69b3b4\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4E816117-79D8-3C2F-8A87-00A0C36D6572}</UniqueIdentifier>
+      <UniqueIdentifier>{8355766D-0BBE-37C6-843C-35279BCC553B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

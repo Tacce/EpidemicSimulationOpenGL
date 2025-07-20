@@ -1,4 +1,4 @@
-^C:\USERS\FRANCESCO TACCETTI\DESKTOP\UNIBO\CORSI\PRIMO ANNO\SISTEMI DIGITALI\ATTIVITÀ_PROGETTUALE\EpidemicSimulationOPENGL\CMAKELISTS.TXT
+^C:\USERS\FRANCESCO TACCETTI\DESKTOP\UNIBO\CORSI\PRIMO ANNO\SISTEMI DIGITALI\ATTIVITÀ_PROGETTUALE\EPIDEMICSIMULATIONOPENGL\CMAKELISTS.TXT
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL" "-BC:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build" --check-stamp-file "C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd

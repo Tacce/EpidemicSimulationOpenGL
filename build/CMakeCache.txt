@@ -116,7 +116,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/SIR_sequential
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/GL_SIR_sequential
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -166,7 +166,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=SIR_sequential
+CMAKE_PROJECT_NAME:STATIC=GL_SIR_sequential
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=
@@ -289,13 +289,13 @@ GLFW_SOURCE_DIR:STATIC=C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo ann
 GLFW_USE_HYBRID_HPG:BOOL=OFF
 
 //Value Computed by CMake
-SIR_sequential_BINARY_DIR:STATIC=C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build
+GL_SIR_sequential_BINARY_DIR:STATIC=C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL/build
 
 //Value Computed by CMake
-SIR_sequential_IS_TOP_LEVEL:STATIC=ON
+GL_SIR_sequential_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-SIR_sequential_SOURCE_DIR:STATIC=C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL
+GL_SIR_sequential_SOURCE_DIR:STATIC=C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attività_progettuale/EpidemicSimulationOpenGL
 
 //Use MSVC runtime library DLL
 USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
@@ -480,5 +480,5 @@ GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL=-lgdi32
 //GLFW pkg-config Requires.private
 GLFW_PKG_CONFIG_REQUIRES_PRIVATE:INTERNAL=
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/SIR_sequential
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/GL_SIR_sequential
 
