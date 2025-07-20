@@ -7,8 +7,8 @@
 #include <ctime>
 #include <chrono>
 
-const int GRID_SIZE_X = 64;
-const int GRID_SIZE_Y = 36;
+const int GRID_SIZE_X = 256;
+const int GRID_SIZE_Y = 144;
 
 const float CELL_WIDTH  = 2.0f / GRID_SIZE_X;
 const float CELL_HEIGHT = 2.0f / GRID_SIZE_Y;
@@ -16,7 +16,7 @@ const float CELL_HEIGHT = 2.0f / GRID_SIZE_Y;
 const int VERTICES_COUNT = GRID_SIZE_X * GRID_SIZE_Y * 6;
 const int NUM_NODES = GRID_SIZE_X * GRID_SIZE_Y;
 
-const int STEP_TIMER = 50; // Milliseconds
+const int STEP_TIMER = 20; // Milliseconds
 
 
 const int dx[] = {-1, 1, 0, 0};
@@ -99,7 +99,7 @@ unsigned int createShaderProgram() {
     return shaderProgram;
 }
 
-void initVertices(Vertex vertices[], int first_infected_node = 0) {
+void initVertices(Vertex* vertices, int first_infected_node = 0) {
     int index = 0;
     for (int j = 0; j < GRID_SIZE_Y; ++j) {
         for (int i = 0; i < GRID_SIZE_X; ++i){
@@ -121,15 +121,16 @@ void initVertices(Vertex vertices[], int first_infected_node = 0) {
     }
 }
 
-void initLevelsAndImmune(int Levels[], int Immune[], int first_infected_node = 0) {
+void initLevelsAndImmune(int* Levels, int* ImmuneCountdown, int* ImmuneStep, int first_infected_node = 0) {
     for (int i = 0; i < NUM_NODES; ++i) {
         Levels[i] = -1; // Inizializza tutti i nodi come non infetti
-        Immune[i] = 0; // Inizializza tutti i nodi come non immuni
+        ImmuneCountdown[i] = 0; // Inizializza tutti i nodi come non immuni
+        ImmuneStep[i] = -1; // Inizializza tutti i nodi come mai stati immuni
     }
     Levels[first_infected_node] = 0; // Il primo nodo è infetto all'inizio
 }
 
-void updateColors(int node_index, float r, float g, float b, Vertex vertices[]) {
+void updateColors(int node_index, float r, float g, float b, Vertex* vertices) {
     int base = node_index * 6;    
     for (int k = 0; k < 6; ++k) {
         vertices[base + k].r = r;
@@ -138,7 +139,8 @@ void updateColors(int node_index, float r, float g, float b, Vertex vertices[]) 
     }
 }
 
-void simulate_step(double p, double q,int si, int& step, int& active_infections, int Levels[], int Immune[], Vertex vertices[]) {
+void simulate_step(double p, double q,int si, int& step, int& active_infections,
+                   int* Levels, int* ImmuneCountdown, int* ImmuneStep, Vertex* vertices) {
     for (int i = 0; i < NUM_NODES; i++) {
         if (Levels[i] == step) {
             int row = i / GRID_SIZE_X;
@@ -153,7 +155,7 @@ void simulate_step(double p, double q,int si, int& step, int& active_infections,
 
                     int neighbor = new_row * GRID_SIZE_X + new_col;
                     
-                    if (Levels[neighbor] == -1 && !Immune[neighbor] && ((double)rand() / RAND_MAX) < p) {
+                    if (Levels[neighbor] < step && ImmuneStep[neighbor] <step && ((double)rand() / RAND_MAX) < p) {
                         Levels[neighbor] = step + 1;
                         active_infections++;
                         updateColors(neighbor, 1.0f, 0.0f, 0.0f, vertices); // Aggiorna colore a rosso
@@ -162,22 +164,20 @@ void simulate_step(double p, double q,int si, int& step, int& active_infections,
             }
             // Simula la guarigione
             if (((double)rand() / RAND_MAX) < q) {
-                Immune[i] = si; // Nodo recuperato
+                ImmuneCountdown[i] = si; // Nodo recuperato - imposta countdown immunità
+                ImmuneStep[i] = step + 1; // Nodo immunizzato al prossimo step
                 active_infections--;
                 updateColors(i, 0.0f, 0.0f, 1.0f, vertices); 
             } else {
                 Levels[i] = step + 1; // Nodo può infettare anche al prossimo step
             }
         }
-        else if (si>0 && Immune[i]){
-            Immune[i]--; // Decrementa il contatore di immunità
-            if (Immune[i] == 0) {
-                // Quando l'immunità finisce, il nodo torna suscettibile
-                Levels[i] = -1;
-                updateColors(i, 0.0f, 0.0f, 0.0f, vertices); // Torna nero (suscettibile)
-            } else {
-                updateColors(i, 0.0f, 0.0f, ((float)Immune[i]/si), vertices); // Aggiorna colore a blu
-            }
+        else if (ImmuneCountdown[i] > 0) {
+            ImmuneCountdown[i]--; // Decrementa il contatore di immunità
+            if (ImmuneCountdown[i] > 0) {
+                ImmuneStep[i] = step + 1; // Aggiorna lo step di immunizzazione
+            } 
+            updateColors(i, 0.0f, 0.0f, ((float)ImmuneCountdown[i]/si), vertices); // Aggiorna colore a blu
         }
     }
     step++;
@@ -211,19 +211,21 @@ int main() {
 
     int first_infected_node = 0; // Nodo inizialmente infetto
 
-    Vertex vertices[VERTICES_COUNT];
+    // Allocazione dinamica degli array
+    Vertex* vertices = new Vertex[VERTICES_COUNT];
+    int* Levels = new int[NUM_NODES];
+    int* ImmuneCountdown = new int[NUM_NODES];
+    int* ImmuneStep = new int[NUM_NODES];
+    
     initVertices(vertices, first_infected_node);
-
-    int Levels[NUM_NODES];
-    int Immune[NUM_NODES];
-    initLevelsAndImmune(Levels, Immune, first_infected_node);
+    initLevelsAndImmune(Levels, ImmuneCountdown, ImmuneStep, first_infected_node);
 
     int active_infections = 1; // Inizio con un'infezione
     int step = 0;
 
     float p = 0.5; // Probabilità di infezione
     float q = 0.5; // Probabilità di guarigione
-    int si = 15; // Durata dell'immunità
+    int si = 30; // Durata dell'immunità
 
     glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
@@ -241,7 +243,7 @@ int main() {
         auto now = std::chrono::steady_clock::now();
         // active_infections > 0 &&
         if (std::chrono::duration_cast<std::chrono::milliseconds>(now - lastUpdate).count() > STEP_TIMER) {
-            simulate_step(p, q, si,step, active_infections, Levels, Immune, vertices);
+            simulate_step(p, q, si, step, active_infections, Levels, ImmuneCountdown, ImmuneStep, vertices);
             glBindBuffer(GL_ARRAY_BUFFER, VBO);
             glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(Vertex) * VERTICES_COUNT, vertices);
             lastUpdate = now;
@@ -257,6 +259,12 @@ int main() {
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
+
+    // Deallocazione della memoria dinamica
+    delete[] vertices;
+    delete[] Levels;
+    delete[] ImmuneCountdown;
+    delete[] ImmuneStep;
 
     glfwTerminate();
     return 0;
