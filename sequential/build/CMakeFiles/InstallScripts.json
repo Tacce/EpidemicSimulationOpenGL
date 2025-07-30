@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/sequential/build/cmake_install.cmake",
+		"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/sequential/build/glfw/cmake_install.cmake",
+		"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/sequential/build/glfw/src/cmake_install.cmake",
+		"C:/Users/Francesco Taccetti/Desktop/UNIBO/corsi/Primo anno/Sistemi Digitali/attivit\u00e0_progettuale/EpidemicSimulationOpenGL/sequential/build/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

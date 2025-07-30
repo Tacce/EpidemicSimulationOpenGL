@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\cuda\build\CMakeFiles\d7ab49c488992d3b5629c17e89fcfda0\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\Francesco Taccetti\Desktop\UNIBO\corsi\Primo anno\Sistemi Digitali\attività_progettuale\EpidemicSimulationOpenGL\cuda\build\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E70CB729-3BFA-3377-B5DA-95BEEAA8B64C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2FB252BB-979B-3037-B005-29CE69E9A7DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
