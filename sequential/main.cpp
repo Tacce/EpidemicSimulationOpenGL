@@ -18,7 +18,6 @@ const int NUM_NODES = GRID_SIZE_X * GRID_SIZE_Y;
 
 const int STEP_TIMER = 10; // Milliseconds
 
-
 const int dx[] = {-1, 1, 0, 0};
 const int dy[] = {0, 0, -1, 1};
 
